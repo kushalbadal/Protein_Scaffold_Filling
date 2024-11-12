@@ -1,0 +1,20 @@
+Model: "model_4"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_5 (InputLayer)        [(None, 5, 1)]            0         
+                                                                 
+ bidirectional (Bidirectiona  (None, 512)              528384    
+ l)                                                              
+                                                                 
+ dense_12 (Dense)            (None, 128)               65664     
+                                                                 
+ dense_13 (Dense)            (None, 64)                8256      
+                                                                 
+ dense_14 (Dense)            (None, 20)                1300      
+                                                                 
+=================================================================
+Total params: 603,604
+Trainable params: 603,604
+Non-trainable params: 0
+_________________________________________________________________

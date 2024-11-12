@@ -1,0 +1,18 @@
+// The GPT Model
+digraph {
+	I [label=Input]
+	E [label=Embedding]
+	T1 [label="Transformer Block 1"]
+	T2 [label="Transformer Block 2"]
+	TD [label="..."]
+	TN [label="Transformer Block N"]
+	O [label="Output Layer"]
+	P [label="Predicted Sequence"]
+	I -> E
+	E -> T1
+	T1 -> T2 [constraint=false]
+	T2 -> TD [constraint=false]
+	TD -> TN [constraint=false]
+	TN -> O
+	O -> P
+}
